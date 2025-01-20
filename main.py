@@ -5,4 +5,11 @@ pole = [
 ]
 for radek in pole:
     print(radek)
+pole.append([100, 110, 120, 130]) 
 
+
+for radek in pole:
+    radek.append(0) 
+
+for radek in pole:
+    print(radek)
